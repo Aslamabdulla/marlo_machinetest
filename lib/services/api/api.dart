@@ -16,4 +16,16 @@ class ApiCalls {
       throw "Error";
     }
   }
+
+//   Future<http.Response> postInvite()async{
+// try {
+//       var fullUrl = kBaseUrl;
+//       var response =
+//           await http.post(Uri.parse(fullUrl), headers: {'authToken': '$token'});
+
+//       return response;
+//     } catch (e) {
+//       throw "Error";
+//     }
+//   }
 }
